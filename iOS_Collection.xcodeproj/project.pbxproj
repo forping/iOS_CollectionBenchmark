@@ -16,6 +16,12 @@
 		D13870D92589B0ED00BEB6FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D13870D82589B0ED00BEB6FC /* main.m */; };
 		D13870E32589B0ED00BEB6FC /* iOS_CollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D13870E22589B0ED00BEB6FC /* iOS_CollectionTests.m */; };
 		D13870EE2589B0ED00BEB6FC /* iOS_CollectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D13870ED2589B0ED00BEB6FC /* iOS_CollectionUITests.m */; };
+		D13871002589B17F00BEB6FC /* TimerBenchmark.m in Sources */ = {isa = PBXBuildFile; fileRef = D13870FF2589B17F00BEB6FC /* TimerBenchmark.m */; };
+		D13871062589B3AE00BEB6FC /* ArrayTimerBenchmark.m in Sources */ = {isa = PBXBuildFile; fileRef = D13871052589B3AE00BEB6FC /* ArrayTimerBenchmark.m */; };
+		D138710D2589B68900BEB6FC /* ThreadSafeMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = D138710C2589B68900BEB6FC /* ThreadSafeMutableDictionary.m */; };
+		D138711A2589E69D00BEB6FC /* DictionaryTimerBenchmark.m in Sources */ = {isa = PBXBuildFile; fileRef = D13871192589E69D00BEB6FC /* DictionaryTimerBenchmark.m */; };
+		D13871242589FD6900BEB6FC /* DictKey.m in Sources */ = {isa = PBXBuildFile; fileRef = D13871232589FD6900BEB6FC /* DictKey.m */; };
+		D138712D2589FE5600BEB6FC /* SetTimerBenchmark.m in Sources */ = {isa = PBXBuildFile; fileRef = D138712C2589FE5600BEB6FC /* SetTimerBenchmark.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +60,18 @@
 		D13870E92589B0ED00BEB6FC /* iOS_CollectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_CollectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D13870ED2589B0ED00BEB6FC /* iOS_CollectionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_CollectionUITests.m; sourceTree = "<group>"; };
 		D13870EF2589B0ED00BEB6FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D13870FE2589B17F00BEB6FC /* TimerBenchmark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerBenchmark.h; sourceTree = "<group>"; };
+		D13870FF2589B17F00BEB6FC /* TimerBenchmark.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerBenchmark.m; sourceTree = "<group>"; };
+		D13871042589B3AE00BEB6FC /* ArrayTimerBenchmark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayTimerBenchmark.h; sourceTree = "<group>"; };
+		D13871052589B3AE00BEB6FC /* ArrayTimerBenchmark.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrayTimerBenchmark.m; sourceTree = "<group>"; };
+		D138710B2589B68900BEB6FC /* ThreadSafeMutableDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadSafeMutableDictionary.h; sourceTree = "<group>"; };
+		D138710C2589B68900BEB6FC /* ThreadSafeMutableDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadSafeMutableDictionary.m; sourceTree = "<group>"; };
+		D13871182589E69D00BEB6FC /* DictionaryTimerBenchmark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DictionaryTimerBenchmark.h; sourceTree = "<group>"; };
+		D13871192589E69D00BEB6FC /* DictionaryTimerBenchmark.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DictionaryTimerBenchmark.m; sourceTree = "<group>"; };
+		D13871222589FD6900BEB6FC /* DictKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DictKey.h; sourceTree = "<group>"; };
+		D13871232589FD6900BEB6FC /* DictKey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DictKey.m; sourceTree = "<group>"; };
+		D138712B2589FE5600BEB6FC /* SetTimerBenchmark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetTimerBenchmark.h; sourceTree = "<group>"; };
+		D138712C2589FE5600BEB6FC /* SetTimerBenchmark.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetTimerBenchmark.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +128,9 @@
 				D13870CA2589B0EB00BEB6FC /* SceneDelegate.m */,
 				D13870CC2589B0EB00BEB6FC /* ViewController.h */,
 				D13870CD2589B0EB00BEB6FC /* ViewController.m */,
+				D13871212589FD5100BEB6FC /* Key */,
+				D13871172589E67300BEB6FC /* Benchmark */,
+				D138710A2589B67600BEB6FC /* Collection */,
 				D13870CF2589B0EB00BEB6FC /* Main.storyboard */,
 				D13870D22589B0ED00BEB6FC /* Assets.xcassets */,
 				D13870D42589B0ED00BEB6FC /* LaunchScreen.storyboard */,
@@ -135,6 +156,39 @@
 				D13870EF2589B0ED00BEB6FC /* Info.plist */,
 			);
 			path = iOS_CollectionUITests;
+			sourceTree = "<group>";
+		};
+		D138710A2589B67600BEB6FC /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				D138710B2589B68900BEB6FC /* ThreadSafeMutableDictionary.h */,
+				D138710C2589B68900BEB6FC /* ThreadSafeMutableDictionary.m */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		D13871172589E67300BEB6FC /* Benchmark */ = {
+			isa = PBXGroup;
+			children = (
+				D13870FE2589B17F00BEB6FC /* TimerBenchmark.h */,
+				D13870FF2589B17F00BEB6FC /* TimerBenchmark.m */,
+				D13871042589B3AE00BEB6FC /* ArrayTimerBenchmark.h */,
+				D13871052589B3AE00BEB6FC /* ArrayTimerBenchmark.m */,
+				D13871182589E69D00BEB6FC /* DictionaryTimerBenchmark.h */,
+				D13871192589E69D00BEB6FC /* DictionaryTimerBenchmark.m */,
+				D138712B2589FE5600BEB6FC /* SetTimerBenchmark.h */,
+				D138712C2589FE5600BEB6FC /* SetTimerBenchmark.m */,
+			);
+			path = Benchmark;
+			sourceTree = "<group>";
+		};
+		D13871212589FD5100BEB6FC /* Key */ = {
+			isa = PBXGroup;
+			children = (
+				D13871222589FD6900BEB6FC /* DictKey.h */,
+				D13871232589FD6900BEB6FC /* DictKey.m */,
+			);
+			path = Key;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,8 +322,14 @@
 			files = (
 				D13870CE2589B0EB00BEB6FC /* ViewController.m in Sources */,
 				D13870C82589B0EB00BEB6FC /* AppDelegate.m in Sources */,
+				D13871002589B17F00BEB6FC /* TimerBenchmark.m in Sources */,
+				D138710D2589B68900BEB6FC /* ThreadSafeMutableDictionary.m in Sources */,
 				D13870D92589B0ED00BEB6FC /* main.m in Sources */,
+				D13871242589FD6900BEB6FC /* DictKey.m in Sources */,
+				D138712D2589FE5600BEB6FC /* SetTimerBenchmark.m in Sources */,
 				D13870CB2589B0EB00BEB6FC /* SceneDelegate.m in Sources */,
+				D13871062589B3AE00BEB6FC /* ArrayTimerBenchmark.m in Sources */,
+				D138711A2589E69D00BEB6FC /* DictionaryTimerBenchmark.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +504,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VCMAK6GCB7;
 				INFOPLIST_FILE = iOS_Collection/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,6 +523,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VCMAK6GCB7;
 				INFOPLIST_FILE = iOS_Collection/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

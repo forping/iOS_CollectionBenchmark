@@ -7,6 +7,10 @@
 
 #import "ViewController.h"
 
+#import "ArrayTimerBenchmark.h"
+#import "DictionaryTimerBenchmark.h"
+#import "SetTimerBenchmark.h"
+
 @interface ViewController ()
 
 @end
@@ -15,7 +19,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+
+    [SetTimerBenchmark new];
 }
 
 
